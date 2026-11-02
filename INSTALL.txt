@@ -1,0 +1,15 @@
+WORKOUT STUDIO — iPhone install package
+
+Files:
+- index.html: app
+- manifest.json: install metadata
+- sw.js: offline cache
+- icon-192.png / icon-512.png: app icons
+
+INSTALL ON IPHONE:
+1. Upload the whole folder to an HTTPS static host (GitHub Pages, Netlify, or similar). Keep all files together.
+2. Open the hosted HTTPS URL in Safari on your iPhone.
+3. Tap Share -> Add to Home Screen -> Add.
+4. Launch from the new Workout icon. Open once online so offline caching can finish.
+
+Note: iOS installation requires HTTPS hosting (or localhost); this ZIP itself is not an App Store IPA. Data stays in the installed app's browser storage. Export backup from inside the app.
